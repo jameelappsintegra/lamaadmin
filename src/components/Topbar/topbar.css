@@ -1,0 +1,28 @@
+.topbar{
+    padding: 13px 0;
+}
+.topbarWrapper{
+    display: grid;
+    grid-template-columns: 1fr 150px;
+}
+.topbarIconContainer{
+    position: relative;
+    max-width: 25px;
+}
+.topIconBag {
+    position: absolute;
+    top: -9px;
+    right: -8px;
+    background: #f00;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 0.9rem;
+}
+.topRight{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
