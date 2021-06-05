@@ -1,0 +1,8 @@
+.chart {
+  padding: 20px;
+  box-shadow:var(--box-shadow);
+}
+
+.chartTitle {
+  margin-bottom: 20px;
+}

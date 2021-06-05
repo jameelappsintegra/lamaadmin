@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    display: grid;
+    grid-gap: 11px;
+    padding: 10px;
+    flex: 4;
+}
+.homeWidgets{
+    display: grid;
+    grid-template-columns: 35% 1fr;
+}
