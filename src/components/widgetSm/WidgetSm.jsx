@@ -1,6 +1,6 @@
 import "./widgetSm.css";
 import { Visibility } from "@material-ui/icons";
-import widgetTitle from "../widgetTitle/widgetTitle";
+import WidgetTitle from "../widgetTitle/widgetTitle";
 
 const newJoin =[
   {
@@ -38,13 +38,11 @@ const newJoin =[
 export default function WidgetSm() {
   return (
     <div className="widgetSm">
-      <h3 className="widgetSmTitle">New Join Members</h3>
-      <widgetTitle />
+      <WidgetTitle title="New Join Members" />
       <ul className="widgetSmList">
         {
           newJoin.map((item,key)=>{
-
-           return( <li className="widgetSmListItem" key={item.id}>
+           return( <li className="widgetSmListItem" key={key}>
               <img
                 src={item.imgUrl}
                 alt={item.userName}
